@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Questions and Answers</title>
+    </head>
+<body>
+    <h1 style="text-decoration: underline;">Html Questions and Answers.</h1>
+    <h3>1. What is HTML, and why is it important in web development and<br>
+         explain the purpose of HTML and its role in structuring web content.?
+    </h3>
+    <p><strong>Answer:</strong> HTML(hypertext markup language) is the standard language to structure web page content. <br>
+        It's the skeleton of a web page. It is important in a web page because it organises content into elements like headings, <br> paragraphs, 
+        links, images, and more, making web pages readable and accessible.<br>
+        Without HTML, web pages would be just plain text without any structure or meaning.
+        Browers read HTML to display the content correctly. <br>
+    </p>
+        <h3>2. What is the difference between an id and a class in HTML<br>
+             Describe the usage and differences between id and class attributes.?
+        </h3>
+        <p><strong>Answer:</strong> "id" identifies/targets one specific element. <br> There can't be more than one element with the same id, while  "class" can apply to multiple elements.
+        </p>
+        <h3>3. What are semantic HTML elements, and why are they important?<br>
+            Define semantic elements and explain how they contribute to accessibility and SEO.
+        </h3>
+        <p><strong>Answer:</strong> Semantic elements clearly describe their meaning to the developer and browser. e.g.: footer, section.<br>
+            They make code more organized and improve accessibility.<br>
+            <strong>Accessibility:</strong> Semantic tags help screen readers and assistive technologies understand the page structure.<br>
+            This improves navigation for users with disabilities. <br>
+            <strong>SEO:</strong> Search engines use semantic tags to understand the content better, which can improve search rankings.<br>
+        </p>
+            <h3>4. Explain the concept of the DOM (Document Object Model).<br>
+                What is the DOM, and how does it relate to the HTML structure of a web page?
+            </h3>
+            <p><strong>Answer:</strong> It is like a tree-like structure representing a webpage's HTML elements as objects.<br>
+                 JavaScript can access, change, add, or delete parts of the page through the DOM.<br>
+                 The HTML document you write is converted by the browser into the DOM tree.<br>
+                   This allows JavaScript to:<br>
+                    Access elements (e.g., getElementById)<br>
+                    Modify content (e.g., change text or images)<br>
+                    Add or remove elements dynamically<br>
+                     React to events (like clicks or form submissions)
+                </p>
+                 <h3>5. What is the purpose of the meta tag in HTML?
+                 </h3>
+                 <p><strong>Answer:</strong> It is used to specify the character set, page description, keywords, author of the document, and viewport settings. <br>
+                    The metadata will not be displayed on the page, 
+                    <br>but it's used by browsers(how to display content or reload the page), by search engines (keywords), and other web services.
+                </p>
+                <h3> How do you create a hyperlink in HTML?</h3>
+                <p><strong>Answer:</strong> Use the  a tag with the href attribute to link to another page or website.<br>
+                     eg: <a href="https://www.example.com">Visit example</a>
+                     The "href" attribute specifies the URL of the page the link goes to.
+                </p>
+                <h3>7. What is the difference between inline, block, and inline-block elements in HTML?
+                </h3>
+                <p><strong>Answer:</strong> Inline elements do not start on a new line and only take up as much width as necessary. <br>
+                    Block elements start on a new line and take up the full width available. <br>
+                    Inline-block elements are like inline elements but can have width and height set.
+                    </p>
+                    <h3>8. What is the form tag used for in HTML?
+                    </h3>
+                    <p><strong>Answer:</strong> The form tag is used to create an HTML form for user input. <br>
+                        It can contain various input elements like text fields, checkboxes, radio buttons, and submit buttons. <br>
+                        Forms are used to collect user data and send it to a server for processing.
+                    </p><br>
+
+                    <h2>CSS</h2>
+                    <h3>9. What is the box model in CSS, and what are its components?
+                    </h3>
+                    <p><strong>Answer:</strong> CSS box model is a box that wraps around every HTML element.<br>
+                        The box model describes the rectangular boxes generated for elements in the document tree and consists of: <br>
+                        1. Content: The actual content of the box, where text and images appear. <br>
+                        2. Padding: The space between the content and the border, inside the element. <br>
+                        3. Border: A line surrounding the padding and content. <br>
+                        4. Margin: The space outside the border, separating the element from others.
+                    </p>
+                    <h3>10. Explain the difference between padding and margin in CSS.</h3>
+                    <p><strong>Answer:</strong> Padding is the space between the content and the border of an element, <br>
+                        while margin is the space outside the border, separating the element from other elements. <br>
+                        Padding is inside the element, while margin is outside.
+                    </p>
+                    <h3>11. What are CSS selectors, and how do they work?<br>
+                        	Describe different types of selectors (e.g., element, class, id, attribute) and how they are used to target HTML elements.
+                    </h3>
+                    <p><strong>Answer:</strong> CSS selectors are patterns used to select and style HTML elements. <br>
+                        Different types of selectors include:<br>
+                        1. Element selector: Selects elements by their tag name (e.g., p, h1).<br>
+                        2. Class selector: Selects elements with a specific class attribute (e.g., .classname).<br>
+                        3. ID selector: Selects a single element with a specific id attribute (e.g., #idname).<br>
+                        4. Attribute selector: Selects elements based on the presence or value of an attribute (e.g., [type="text"]).<br>
+                    </p>
+                    <h3>12.	What is Flexbox, and how does it work in CSS?<br>
+                        Explain Flexbox layout and its properties (e.g., justify-content, align-items, flex-direction) with examples.
+                    </h3>
+                    <p><strong>Answer:</strong> Flexbox is a CSS layout model that makes it easy to arrange items in a row or column, evenly space them, and align them nicely. <br>
+                        Key properties include:<br>
+                        justify-content: aligns items horizontally.<br>
+                        align-items: aligns items vertically.<br>
+                        flex-direction: sets the main axis (row or column).
+                        <h3>13.	What is the difference between position: relative and position: absolute in CSS?<br>
+                            Explain the positioning scheme in CSS and how these two properties behave.
+                        </h3>
+                        <p><strong>Answer:</strong> position: relative positions an element relative to its normal position, <br>
+                            while position: absolute positions an element relative to its nearest positioned ancestor (not static).<br>
+                            Relative elements still take up space in the document flow, while absolute elements do not.
+                            </p>
+                            <h3>14.	What is the purpose of media queries in CSS?<br>
+                                Explain how media queries are used for responsive design and provide an example.
+                            </h3>
+                            <p><strong>Answer:</strong> Media queries are used to apply different styles based on the device's characteristics, <br>
+                                such as screen size or resolution. They help create responsive designs that adapt to various devices.<br>
+                                Example: <br>
+                                @media (max-width: 600px) {<br>
+                                    body {<br>
+                                        background-color: lightblue;<br>
+                                    }<br>
+                                }<br>
+                                This changes the background color to light blue for screens smaller than 600px.
+                            </p>
+                            <h3>15.	What is CSS Grid, and how does it differ from Flexbox?<br>
+                                	Describe the CSS Grid layout system and compare it to Flexbox, explaining when to use each.
+                            </h3>
+                            <p>
+                                <strong>Answer:</strong> CSS Grid is a powerful two-dimensional layout system in CSS that allows you to design web layouts using rows and columns. <br>
+                                With Grid, you can place items precisely on a grid, control spacing, and create complex layouts easily.<br>
+                                You define a grid container and set the number of rows and columns.<br>
+                                 Then you place items into specific grid cells or areas.<br>
+                                Flexbox is one-dimensional, focusing on arranging items in a single row or column.<br> 
+                                Use CSS Grid when:<br>
+                                 You need to align items in rows and columns<br>
+                                 You’re building a full page layout<br>
+                                You want overlapping items (e.g., layers)<br>
+                                Use Flexbox when:<br>
+                                 You need to align items in a single row or column<br>
+                                 You want to distribute space between items<br>
+                                 You’re building a simple navigation bar or list<br>
+                                You need to control the order of items<br>
+                            </p>
+                            <h3>16.	What are pseudo-classes and pseudo-elements in CSS?<br>
+                            	Define pseudo-classes (e.g., :hover, :focus) and pseudo-elements (e.g., ::before, ::after) with examples of their usage.
+                            </h3>
+                            <p><strong>Answer:</strong> Pseudo-classes are used to style elements based on their state or position, <br>
+                                while pseudo-elements are used to style specific parts of an element.<br>
+                                Examples:<br>
+                                Pseudo-class: a:hover { color: blue; } (changes link color on hover)<br>
+                                Pseudo-element: h1::before {   content: "🔥 ";}<br>
+                                Pseudo-elements are often used to add decorative content without adding extra HTML elements.
+                                </p> <br>
+
+                        <h2>JavaScript</h2>      
+                        <h3>17.	What is the difference between var, let, and const in JavaScript?<br>
+                            Explain the scoping rules and differences between these three keywords for declaring variables.
+                        </h3>  
+                        <p><strong>Answer:</strong> "var" is function-scoped and can be redeclared, <br>
+                            "let" is block-scoped and cannot be redeclared in the same scope, <br>
+                            "const" is also block-scoped but cannot be reassigned or redeclared. <br>
+                            Use "let" for variables that may change, "const" for constants, and "var" for older code (not recommended).<br>
+                            <h3>18.	What is the difference between null and undefined in JavaScript?<br>
+                                	Describe the two types and explain their differences in JavaScript.
+                            </h3>
+                            <p><strong>Answer:</strong> "null" is an intentional absence of value, while "undefined" means a variable has been declared but not assigned a value.<br>
+                                Null is an object type, while undefined is a type of its own. <br>
+                                Use null when you want to explicitly indicate no value, and use undefined when a variable has not been initialized.
+                            </p>
+                            <h3>19.	What are JavaScript functions, and how do you define one?<br>
+                                	Explain how functions are defined and invoked in JavaScript, and provide examples of both regular and arrow functions.
+                            </h3>
+                            <p><strong>Answer:</strong> Functions are reusable blocks of code that perform a specific task. <br>
+                                You define a function using the "function" keyword, followed by its name and parameters.<br>
+                                Example of a regular function:<br>
+                                function add(a, b) {<br>
+                                    return a + b;<br>
+                                }<br>
+                                Example of an arrow function:<br>
+                                const add = (a, b) => a + b;<br>
+                                You invoke a function by calling its name followed by parentheses.<br>
+                                Example: add(2, 3); // returns 5<br>
+                                </p>
+                                <h3>20.	What is the purpose of the "this" keyword in JavaScript?<br>
+                                    	Explain how this works in different contexts (e.g., in regular functions, arrow functions, and event handlers).
+                                
+                                </h3>
+                                <p><strong>Answer:</strong> The "this" keyword refers to the context in which a function is called. <br>
+                                    In regular functions, "this" refers to the global object (or undefined in strict mode).<br>
+                                    In arrow functions, "this" retains the value of the enclosing lexical context.<br>
+                                    In event handlers, "this" refers to the element that triggered the event.<br>
+                                    Example:<br>
+                                    const obj = {<br>
+                                        name: "John",<br>
+                                        greet: function() {<br>
+                                            console.log("Hello, " + this.name);<br>
+                                        }<br>
+                                    };<br>
+                                    obj.greet(); // Output: Hello, John<br>
+                                    const arrowGreet = () => console.log("Hello, " + this.name);<br>
+                                    </p>
+                                 
+
+</body>
+</html>
+                        
